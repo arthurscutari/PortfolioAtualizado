@@ -1,0 +1,66 @@
+// Divs Header
+
+.header-icon-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 20%;
+}
+ .header-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+  }
+
+  // Divs Sobre mim
+
+  
+.div-about-container {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+
+  .about-div-icon {
+    height: 40px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+  }
+
+  .div-about-button {
+    height: 20%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+}
+
+// Divs Projetos
+
+.div-projects-container {
+
+    height: 80%;
+    width: 90%;
+    background-color: red;
+    .div-projects{
+      background-color: blue;
+      height: 50%;
+      width: auto;
+      overflow-x: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+}
